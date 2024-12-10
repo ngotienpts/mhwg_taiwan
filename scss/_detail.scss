@@ -1,0 +1,191 @@
+.detail-content {
+    & figure {
+        margin-bottom: 1.25rem;
+
+        img {
+            max-width: 100%;
+            width: auto;
+            height: auto !important;
+            margin: auto;
+        }
+    }
+    & figure figcaption {
+        background: #f7f7f7;
+        padding: 0.625rem 0.9375rem;
+        font-size: 14px;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        line-height: 1.25rem;
+        color: #555;
+    }
+    & figure figcaption em {
+        font-style: italic;
+    }
+    & p a {
+        font-weight: bold;
+        text-decoration: underline;
+        font-style: italic;
+        word-break: break-word;
+    }
+    & p,
+    & li {
+        font-size: 16px;
+        line-height: 160%;
+        margin-bottom: 13px;
+        word-break: break-word;
+    }
+    & ul {
+        padding-left: 30px;
+    }
+    & ul li {
+        list-style: disc;
+    }
+
+    & > h2 {
+        font-weight: bold;
+        font-size: 28px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+    & > h3 {
+        font-weight: bold;
+        font-size: 26px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+    & > h4 {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+    & > h5 {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+    & > h6 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    & blockquote {
+        background-color: #f4f4f4;
+        padding: 18px 15px;
+        margin-bottom: 1.25rem;
+
+        & p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    
+}
+
+.detail-primary {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #192a3d;
+
+    .title {
+        font-size: 30px;
+        font-weight: bold;
+
+    }
+
+    .detail-author {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-weight: bold;
+
+        &__img {
+            display: inline-block;
+            margin-right: 5px;
+            img {
+                width: 25px;
+                height: 25px;
+                border-radius: 999px;
+            }
+        }
+    }
+    .sapo {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 13px;
+    }
+}
+
+.detail-secondary {
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+    .comment-form {
+        .required {
+            color: #c00;
+        }
+    }
+    .comment-form-input {
+        position: relative;
+        input,textarea {
+            background-color: inherit;
+            height: 40px;
+            width: 100%;
+            padding: 0 15px;
+            border: 1px solid #192a3d;
+            border-radius: 3px;
+
+            &:focus {
+                border-color: #0c96d4;
+            }
+        }
+        textarea {
+            height: 170px;
+            width: 100%;
+            padding: 12px 15px;
+        }
+        label {
+            font-size: 15px;
+            line-height: inherit;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            cursor: text;
+            margin-bottom: 0;
+            inset-inline-start: 0;
+            height: 40px;
+            padding: 0 15px;
+            transition: opacity .15s cubic-bezier(0.455, 0.03, 0.515, 0.955),inset-inline-start .15s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+        }
+        &:focus-within label {
+            opacity: 0;
+            inset-inline-start: 20px
+        }
+        &.not-empty label {
+            opacity: 0;
+            inset-inline-start: 20px
+        }
+    }
+
+    .form-submit {
+        padding: 5px 20px;
+        font-size: 15px;
+        color: #fff;
+        background-color: #0c96d4;
+        height: 40px;
+        font-weight: 500;
+        border-radius: 3px;
+        &:hover {
+            background-color: #086cb7;
+        }
+    }
+}
