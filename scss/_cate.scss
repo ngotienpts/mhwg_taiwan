@@ -295,6 +295,11 @@
 .chapter-secondary {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #fff;
+
+    a {
+        color: #49c8eb;
+    }
 
     &__left {
         width: 23%;
@@ -305,6 +310,20 @@
             border-radius: 10px;
             font-size: 28px;
             background-color: #66BE77;
+        }
+
+        .heading-taiwan-one {
+           
+            border-radius: 50px;
+            margin: auto;
+            transform: translateY(-30px);
+
+        }
+        .heading-taiwan-two {
+           
+            border-radius: 20px;
+            transform: translateY(-40px);
+
         }
         p {
             text-align: justify;
@@ -1045,6 +1064,35 @@
                 }
               }  
             }
+
+            thead {
+                tr {
+                    th {
+                        &:last-child {
+                            border-right: 2px solid #009f54;
+                            border-top-right-radius: 20px;
+                        }
+                        
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        &:last-child {
+                            border-right: 2px solid #009F54;
+                        }
+                    }
+
+                    &:last-child {
+                        td {
+                            &:last-child {
+                                border-bottom-right-radius: 20px;
+                            }
+                        } 
+                    }
+                }
+            }
         }
 
         .table-2-col {
@@ -1112,6 +1160,8 @@
                     margin: auto;
                 }
             }
+
+            
         }
         .part-three-1 {
             .note {
@@ -1155,6 +1205,7 @@
                 height: auto;
             }
         }
+        
 
         .part-four-1 {
             .block-wrapper {
@@ -1411,6 +1462,16 @@
 
 
         // chuong 2
+        .part-seoncdary {
+            table {
+                th {
+                    border-color: #086CB7 !important;
+                }
+                td {
+                    border-color: #086CB7 !important;
+                }
+            }
+        }
         .part-one-2 {
             .block-wrapper {
                 background-color: #D3E8F2;
@@ -1585,7 +1646,16 @@
         }
 
         // chuong 3
-
+        .part-tertiary {
+            table {
+                th {
+                    // border-color: #086CB7 !important;
+                }
+                td {
+                    // border-color: #086CB7 !important;
+                }
+            }
+        }
         .part-four-3 {
 
         }

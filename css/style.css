@@ -520,6 +520,14 @@ img {
   background-color: #BAE1BF;
 }
 
+.bg-blue-086 {
+  background-color: #086CB7;
+}
+
+.bg-blue-08630 {
+  background-color: #086CB730;
+}
+
 .bg-cyan-49 {
   background-color: #49c8eb;
 }
@@ -1312,6 +1320,10 @@ img {
   text-align: center;
 }
 
+.text-center-im {
+  text-align: center !important;
+}
+
 .text-right {
   text-align: right;
 }
@@ -1567,6 +1579,19 @@ img {
 
 .mt-0 {
   margin-top: 0 !important;
+}
+
+.img-round-full-120 {
+  border-radius: 999px;
+  overflow: hidden;
+  width: 120px !important;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-round-full-120 img {
+  object-fit: contain;
 }
 
 .header {
@@ -2329,6 +2354,10 @@ img {
 .chapter-secondary {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #fff;
+}
+.chapter-secondary a {
+  color: #49c8eb;
 }
 .chapter-secondary__left {
   width: 23%;
@@ -2340,6 +2369,15 @@ img {
   border-radius: 10px;
   font-size: 28px;
   background-color: #66BE77;
+}
+.chapter-secondary__right .heading-taiwan-one {
+  border-radius: 50px;
+  margin: auto;
+  transform: translateY(-30px);
+}
+.chapter-secondary__right .heading-taiwan-two {
+  border-radius: 20px;
+  transform: translateY(-40px);
 }
 .chapter-secondary__right p {
   text-align: justify;
@@ -2845,6 +2883,16 @@ img {
   border-top: 2px solid #009f54;
   border-top-right-radius: 20px;
 }
+.chapter-secondary__right table thead tr th:last-child {
+  border-right: 2px solid #009f54;
+  border-top-right-radius: 20px;
+}
+.chapter-secondary__right table tbody tr td:last-child {
+  border-right: 2px solid #009F54;
+}
+.chapter-secondary__right table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 20px;
+}
 .chapter-secondary__right .table-2-col {
   border-collapse: collapse;
 }
@@ -3123,6 +3171,12 @@ img {
 }
 .chapter-secondary__right .question-box .question-item {
   margin-top: 20px;
+}
+.chapter-secondary__right .part-seoncdary table th {
+  border-color: #086CB7 !important;
+}
+.chapter-secondary__right .part-seoncdary table td {
+  border-color: #086CB7 !important;
 }
 .chapter-secondary__right .part-one-2 .block-wrapper {
   background-color: #D3E8F2;
