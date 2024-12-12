@@ -264,6 +264,15 @@
         background-color: rgb(12,150,212);
     }
 }
+.chapter-primary--5-1 {
+    background-color: #00b2b2;
+    .chapter-primary__heading-inner {
+        background-color: #bde5ed;
+    }
+    .chapter-primary__img {
+        background-color: #bde5ed;
+    }
+}
 .chapter-primary--6 {
     background-color: rgb(246,159,146);
     .chapter-primary__heading-inner {
@@ -1859,7 +1868,16 @@
         }
 
         // chuong 5
-
+        .part-quinary {
+            table {
+                th {
+                    border-color: #49c8eb !important;
+                }
+                td {
+                    border-color: #49c8eb !important;
+                }
+            }
+        }
         .part-five-5 {
             .article-table {
                 align-items: stretch;
@@ -1884,7 +1902,16 @@
         }
 
         // chuong 6
-
+        .part-senary {
+            table {
+                th {
+                    border-color: #f16977 !important;
+                }
+                td {
+                    border-color: #f16977 !important;
+                }
+            }
+        }
         .part-eight-6 {
             .two-item {
                 .text-itemCenter {
@@ -1902,11 +1929,33 @@
         }
 
         // chuong 7
+        .part-septenary {
+            table {
+                th {
+                    border-color: #6751a2 !important;
+                }
+                td {
+                    border-color: #6751a2 !important;
+                }
+            }
+        }
         .part-three-7 {
             .article-border-1 {
                 border-radius: 20px;
                 border-top-width: 20px;
                 padding: 50px;
+            }
+        }
+
+        // chuong 8
+        .part-octonary {
+            table {
+                th {
+                    border-color: #1e73be !important;
+                }
+                td {
+                    border-color: #1e73be !important;
+                }
             }
         }
 

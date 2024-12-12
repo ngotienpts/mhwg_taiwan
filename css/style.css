@@ -488,6 +488,10 @@ img {
   color: #49c8eb;
 }
 
+.text-cyan-00b {
+  color: #00b2b2;
+}
+
 .text-pink-f1 {
   color: #f16977;
 }
@@ -533,8 +537,20 @@ img {
   background-color: #49c8eb;
 }
 
+.bg-cyan-00b {
+  background-color: #00b2b2;
+}
+
+.bg-cyan-c3e {
+  background-color: #c3e7e5;
+}
+
 .bg-pink-f1 {
   background-color: #f16977;
+}
+
+.bg-pink-fce {
+  background-color: #fce1e6;
 }
 
 .bg-purple-67 {
@@ -1549,6 +1565,10 @@ img {
   border: 1px solid #49c8eb;
 }
 
+.border-cyan-00b {
+  border: 1px solid #00b2b2;
+}
+
 .border-pink-f1 {
   border: 1px solid #f16977;
 }
@@ -2333,6 +2353,16 @@ img {
 }
 .chapter-primary--5 .chapter-primary__img {
   background-color: #0c96d4;
+}
+
+.chapter-primary--5-1 {
+  background-color: #00b2b2;
+}
+.chapter-primary--5-1 .chapter-primary__heading-inner {
+  background-color: #bde5ed;
+}
+.chapter-primary--5-1 .chapter-primary__img {
+  background-color: #bde5ed;
 }
 
 .chapter-primary--6 {
@@ -3435,6 +3465,12 @@ img {
   width: 100%;
   height: auto;
 }
+.chapter-secondary__right .part-quinary table th {
+  border-color: #49c8eb !important;
+}
+.chapter-secondary__right .part-quinary table td {
+  border-color: #49c8eb !important;
+}
 .chapter-secondary__right .part-five-5 .article-table {
   align-items: stretch;
 }
@@ -3450,6 +3486,12 @@ img {
 .chapter-secondary__right .part-five-5 .article-table .article-right .article-table__item:last-child {
   margin-bottom: 0;
 }
+.chapter-secondary__right .part-senary table th {
+  border-color: #f16977 !important;
+}
+.chapter-secondary__right .part-senary table td {
+  border-color: #f16977 !important;
+}
 .chapter-secondary__right .part-eight-6 .two-item .text-itemCenter p {
   text-align: center !important;
 }
@@ -3459,10 +3501,22 @@ img {
 .chapter-secondary__right .part-eight-6 .two-item .text-itemCenter div {
   margin-top: 16px;
 }
+.chapter-secondary__right .part-septenary table th {
+  border-color: #6751a2 !important;
+}
+.chapter-secondary__right .part-septenary table td {
+  border-color: #6751a2 !important;
+}
 .chapter-secondary__right .part-three-7 .article-border-1 {
   border-radius: 20px;
   border-top-width: 20px;
   padding: 50px;
+}
+.chapter-secondary__right .part-octonary table th {
+  border-color: #1e73be !important;
+}
+.chapter-secondary__right .part-octonary table td {
+  border-color: #1e73be !important;
 }
 .chapter-secondary__tableOfContent .tableOfContent-headingParent {
   text-decoration: underline;
