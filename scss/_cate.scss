@@ -1661,6 +1661,16 @@
         }
 
         // chuong 4
+        .part-quaternary {
+            table {
+                th {
+                    border-color: #f5ae43 !important;
+                }
+                td {
+                    border-color: #f5ae43 !important;
+                }
+            }
+        }
         .part-one-4 {
             .article-img {
                 .article-img1 {
@@ -2331,3 +2341,23 @@
     }
 }
 // end user manual
+
+.box-col-primary {
+    &__item {
+        &:nth-child(even){
+            .text {
+                order: 2;
+
+                text-align: right;
+                p {
+                    text-align: right !important;
+                }
+            }
+            .img {
+                order: 1;
+                margin-left: 0;
+                margin-right: 20px;
+            }
+        }
+    }
+}
