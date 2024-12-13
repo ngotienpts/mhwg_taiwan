@@ -529,6 +529,10 @@ img {
   background-color: #086CB7;
 }
 
+.bg-blue-8fa {
+  background-color: #8fa8d5;
+}
+
 .bg-blue-08630 {
   background-color: #086CB730;
 }
@@ -1557,6 +1561,10 @@ img {
   border: 1px solid #086CB7;
 }
 
+.border-blue-8fa {
+  border: 1px solid #8fa8d5;
+}
+
 .border-yellow-f5 {
   border: 1px solid #f5ae43;
 }
@@ -2512,7 +2520,7 @@ img {
   margin-top: 12px;
 }
 .chapter-secondary__right.chapter-3 .heading {
-  background-color: #009F54;
+  background-color: #4d7dbf;
 }
 .chapter-secondary__right.chapter-3 .heading-two {
   color: #192a3d;
