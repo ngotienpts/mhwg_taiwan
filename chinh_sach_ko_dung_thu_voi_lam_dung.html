@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./images/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./images/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./images/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./images/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./images/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./images/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./images/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./images/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./images/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./images/favicon/favicon-16x16.png"
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./images/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- end favicon -->
+        <title>Handbook Korean - Sổ Tay SỨC KHỎE Cho người lao động VIỆT NAM làm việc tại HÀN QUỐC</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap"
+            rel="stylesheet"
+        />
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- header -->
+        <header id="header" class="header relative js__stickyHeader">
+            <!-- pc -->
+            <div class="header-container w-1290">
+                <div class="header-top d-3xl-flex items-center justify-between">
+                    <!-- logo -->
+                    <div class="header-logo flex-0">
+                        <a href="#" class="header-logo__link"><img src="./images/logo-trang-1.png" alt="" class="header-logo__img"></a>
+                    </div>
+                    <!-- logo -->
+                    <div class="header-right flex-1 d-3xl-flex items-center gap-24">
+                        <!-- search -->
+                         <div class="header-search js__searchContainer">
+                            <div class="header-search__icon js__searchIcon">
+                                <img src="./images/svg/search.svg" alt="">
+                            </div>
+                            <div class="header-search__wrapper js__searchContent">
+                                <div class="header-search__close js__closeSearch">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <div class="header-search__form">
+                                    <form action="" class="relative">
+                                        <input type="text" class="search-input w-full h-full js__searchInput" placeholder="Tìm kiếm...">
+                                        <button class="search-btn">
+                                            <svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z" fill="currentColor"></path></svg>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                         </div>
+                        <!-- end search -->
+                        <!-- navbar -->
+                         <ul class="navbar d-3xl-flex items-center gap-24">
+                            <!-- item -->
+                            <li class="navbar-item active">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Handbook</a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 1: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 2: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-dropdown__link">Chương 3: Hệ thống y tế và hệ thống khám chữa bệnh tại Hàn Quốc</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Tin tức</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Liên hệ</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link">Về chúng tôi</a>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="navbar-item navbar-item-languageWrapper">
+                                <div class="navbar-item__top d-3xl-flex items-center gap-10">
+                                    <a href="#" class="navbar-item__link navbar-item__language">
+                                        <div class="navbar-item__flag-icon">
+                                            <img src="./images/flag-vi.png" alt="">
+                                        </div>
+                                        <span class="navbar-item__text">Tiếng việt</span>
+                                    </a>
+                                    <div class="navbar-item__icon">
+                                        <svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z" fill="currentColor"></path></svg>
+                                    </div>
+                                </div>
+                                <div class="navbar-dropdown-wrapper">
+                                    <ul class="navbar-dropdown">
+                                        <li class="navbar-dropdown__item fs-15">
+                                            <a href="#" class="navbar-item__link navbar-item__language">
+                                                <div class="navbar-item__flag">
+                                                    <img src="./images/flag-co.png" alt="">
+                                                </div>
+                                                <span class="navbar-item__text">KO</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- end item -->
+                            
+                         </ul>
+                        <!-- end navbar -->
+
+                        <!-- menu mobile -->
+                        <div class="sub-menu d-3xl-none d-md-block">
+                            <!-- icon bar -->
+                            <div class="icon-bar js__clickShowMenuMb px-15 py-10">
+                                <img src="./images/svg/bar-w.svg" alt="">
+                            </div>
+                            <!-- end icon bar -->
+                            <!-- content -->
+                            <div class="sub-menu__content">
+                                <!-- close -->
+                                <div class="sub-menu__close js__closeSubMenu h-56 p-4 mb-8 d-3xl-flex items-center text-white">
+                                    <img src="./images/svg/close-w.svg" alt="">
+                                </div>
+                                <!-- end close -->
+
+                                <div class="sub-menu__container">
+                                    <!-- list -->
+                                    <div class="sub-menu__list">
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                        <!-- item -->
+                                        <div class="sub-menu__item">
+                                            <!-- heading -->
+                                            <div class="heading-sub js__dropDown d-3xl-flex items-center justify-between px-16 py-8 text-white">
+                                                <a href="#" class="heading-sub__title fs-16 fw-500">
+                                                    Movies
+                                                </a>
+                                                <div class="heading-sub__arrow">
+                                                    <img src="./images/svg/arrow-down-w.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <!-- end heading -->
+
+                                            <!-- sub menu list -->
+                                            <ul class="list-sub js__listSubMenu">
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                                <li class="item-sub">
+                                                    <a href="#" class="item-sub__link fs-16">Release Calender</a>
+                                                </li>
+                                            </ul>
+                                            <!-- end sub menu list -->
+                                        </div>
+                                        <!-- end item -->
+                                    </div>
+                                    <!-- end list -->
+                                </div>
+                            </div>
+                            <!-- end content -->
+                            <div class="overlay js__overlay"></div>
+                        </div>
+                        <!-- end menu mobile -->
+                    </div>
+                </div>
+            </div>
+            <!-- end pc -->
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            
+            <!-- chapter primary -->
+            <section class="chapter-primary chapter-primary--iom relative z-20 over-hidden w-wrapper">
+                <div class="chapter-primary__container w-1290 d-3xl-flex items-center justify-between">
+                    <!-- content -->
+                     <div class="chapter-primary__content flex-1">
+                        <h1 class="chapter-primary__heading text-white fw-600 uppercase"><span class="chapter-primary__heading-inner">Tổ chức IOM</span></h1>
+                        <h2 class="chapter-primary__title text-white fw-600 uppercase">chính sách không dung thứ với lạm dụng và bóc lột tình dục</h2>
+                     </div>
+                    <!-- end content -->
+                    <!-- img -->
+                     <div class="chapter-primary__img flex-0">
+                        <img src="./images/iom_1.1.png" alt="">
+                     </div>
+                    <!-- end img -->
+                </div>
+            </section>
+            <!-- end chapter primary -->
+
+            <!-- chapter secondary -->
+            <section class="chapter-secondary relative z-20 over-hidden w-wrapper">
+                <div class="chapter-secondary__container w-1290 d-3xl-flex">
+                    <!-- left -->
+                    <div class="chapter-secondary__left flex-0 text-gray-192">
+                        <!-- pc -->
+                        <div class="chapter-secondary__tableOfContent d-3xl-block d-lg-none">
+                            <h2 class="tableOfContent-headingParent fw-600 fs-20 uppercase">Mục lục:</h2>
+                            <ul class="tableOfContent-content">
+                                <!-- item -->
+                                <li class="tableOfContent-item active js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 1: HỆ THỐNG Y TẾ VÀ HỆ THỐNG KHÁM, CHỮA BỆNH TẠI HÀN QUỐC</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__1" class="tableOfContent-dropdown__link">Tôi bị ốm nên tôi muốn đến bệnh viện khám. Tôi nên đến bệnh viện nào? Hệ thống y tế ở Hàn Quốc như thế nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__2" class="tableOfContent-dropdown__link">Trạm y tế là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__3" class="tableOfContent-dropdown__link">Khi bị ốm, tôi phải đến cơ sở y tế nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__4" class="tableOfContent-dropdown__link">Đơn thuốc là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__5" class="tableOfContent-dropdown__link">Khi tôi bị ốm, tôi không biết phải điều trị tại bệnh viện nào?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__6" class="tableOfContent-dropdown__link">Tôi bất ngờ bị thương nặng và phải đến bệnh viện gấp. Tôi phải làm gì trong trường hợp này?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__7" class="tableOfContent-dropdown__link">Sau khi khám, chữa bệnh tại bệnh viện, tôi có thể nhận thuốc ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__8" class="tableOfContent-dropdown__link">Tôi có thể mua thuốc trực tiếp tại hiệu thuốc mà không có đơn thuốc không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_1.html#chapter-1__9" class="tableOfContent-dropdown__link">Nếu tôi muốn sử dụng dịch vụ y tế nhưng lại không biết tiếng Hàn thì tôi phải liên lạc tới đâu?</a>
+                                        </li>
+                                       
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 2: Bảo hiểm y tế và dịch vụ y tế</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__1" class="tableOfContent-dropdown__link">Bảo hiểm y tế là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__2" class="tableOfContent-dropdown__link">Làm thế nào để tham gia bảo hiểm y tế? Sự khác nhau giữa bảo hiểm y tế theo doanh nghiệp và bảo hiểm y tế của địa phương là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__3" class="tableOfContent-dropdown__link">Trong trường hợp tôi bị mất việc hoặc nghỉ việc tại công ty cũ và thay đổi nơi làm việc thì tình trạng bảo hiểm y tế theo doanh nghiệp được đăng ký trước đó có bị thay đổi không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__4" class="tableOfContent-dropdown__link">Làm thế nào để tôi xác định được mình đang tham gia bảo hiểm y tế theo doanh nghiệp hay bảo hiểm y tế của địa phương?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__5" class="tableOfContent-dropdown__link">Cách đóng tiền bảo hiểm y tế là gì? Sự khác nhau khi đóng bảo hiểm y tế theo doanh nghiệp và bảo hiểm y tế của địa phương là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__6" class="tableOfContent-dropdown__link">Chuyện gì sẽ xảy ra nếu tôi không tham gia bảo hiểm y tế hoặc không đóng phí bảo hiểm y tế?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__7" class="tableOfContent-dropdown__link">Tôi có được giảm phí khi đóng phí bảo hiểm y tế của địa phương không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__8" class="tableOfContent-dropdown__link">Quyền lợi của bảo hiểm y tế là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__9" class="tableOfContent-dropdown__link">Sự khác nhau giữa phần chi phí điều trị được chi trả và không được chi trả trên hóa đơn viện phí là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__10" class="tableOfContent-dropdown__link">Khi muốn được tư vấn về bảo hiểm y tế thì tôi phải liên hệ tới đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__11" class="tableOfContent-dropdown__link">Tôi có thể tìm kiếm các thông tin về bảo hiểm y tế ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__12" class="tableOfContent-dropdown__link">Khi nào thì bảo hiểm y tế của tôi hết hạn?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_2.html#chapter-2__13" class="tableOfContent-dropdown__link">Người lao động nước ngoài tại Hàn Quốc chưa đăng ký thông tin cư trú có thể sử dụng các dịch vụ y tế hay không?​</a>
+                                        </li>
+                                       
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                
+                                <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 3: An toàn và sức khỏe nghề nghiệp</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__1" class="tableOfContent-dropdown__link">Có chương trình giáo dục về an toàn và sức khỏe nghề nghiệp dành cho người nước ngoài di cư không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__2" class="tableOfContent-dropdown__link">Tôi có thể tìm kiếm thông tin về dịch vụ an toàn lao động và sức khỏe nghề nghiệp ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__3" class="tableOfContent-dropdown__link">Khi tôi gặp vấn đề về sức khỏe liên quan đến nghề nghiệp hoặc bị tai nạn lao động thì tôi phải liên liên hệ với ai/cơ quan nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__4" class="tableOfContent-dropdown__link">Bảo hiểm lao động là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#" class="tableOfContent-dropdown__link">Bảo hiểm tai nạn lao động là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__5" class="tableOfContent-dropdown__link">Tôi có phải tự đăng ký tham gia bảo hiểm tai nạn lao động không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__6" class="tableOfContent-dropdown__link">Làm thế nào để đăng ký hưởng trợ cấp bảo hiểm tai nạn lao động?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__7" class="tableOfContent-dropdown__link">Tôi gặp tai nạn khi đang làm việc. Tôi phải làm gì trong trường hợp này?​​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__8" class="tableOfContent-dropdown__link">Trong trường hợp tôi bị thương khi đang làm việc, tôi có được hưởng bảo hiểm tai nạn lao động không?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__9" class="tableOfContent-dropdown__link">Tôi bị thương khi đang làm việc và cần phải làm phẫu thuật. Chi phí phẫu thuật sẽ do ai chi trả?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__10" class="tableOfContent-dropdown__link">Môi trường làm việc hiện tại của tôi không an toàn và có hại cho sức khỏe.</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__11" class="tableOfContent-dropdown__link">Từ sau khi bị thương trong quá trình làm việc, tôi gặp phải các di chứng từ vết thương​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__12" class="tableOfContent-dropdown__link">Tôi bị bệnh sau một thời gian dài làm cùng một loại công việc.​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__13" class="tableOfContent-dropdown__link">Tôi có người thân đang làm việc tại Hàn Quốc và bị tử vong trong quá trình làm việc, tôi nên liên lạc với ai?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__14" class="tableOfContent-dropdown__link">Nếu tôi có người thân là lao động làm việc tại Hàn Quốc và không may bị tử vong, tôi cần biết những gì?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__15" class="tableOfContent-dropdown__link">Tôi có người thân đang làm việc tại Hàn Quốc, tôi muốn biết Đại sứ quán Việt Nam có thể hỗ trợ gì nếu người thân của tôi tử vong trong khi đang làm việc tại Hàn Quốc?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__16" class="tableOfContent-dropdown__link">Tôi có người thân tử vong khi đang làm việc tại Hàn Quốc, tôi cần làm gì để đưa thi thể hay hài cốt của người thân về Việt Nam?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__17" class="tableOfContent-dropdown__link">Tôi bị người khác lợi dụng chức vụ cao hơn để quấy rối, bắt nạt và đối xử bất công tại nơi làm việc. Tôi phải làm gì trong trường hợp này?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__18" class="tableOfContent-dropdown__link">Tôi bị chủ lao động và đồng nghiệp bạo hành. Tôi phải đối phó như thế nào?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__19" class="tableOfContent-dropdown__link">Tôi bị thương trong lúc làm việc nhưng chủ lao động không trả phí điều trị và bồi thường tai nạn lao động cho tôi. Tôi phải làm gì trong trường hợp này?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__20" class="tableOfContent-dropdown__link">Quấy rối tình dục là gì?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__21" class="tableOfContent-dropdown__link">Cách để tố cáo hành vi quấy rối tình dục tại nơi làm việc là gì?​</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="#chapter-4__22" class="tableOfContent-dropdown__link">Tôi bị bạo hành và tấn công tình dục, tôi có thể nhận được trợ giúp từ đâu ?​</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 4: Bệnh truyền nhiễm</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__1" class="tableOfContent-dropdown__link">Trong trường hợp có những bệnh truyền nhiễm phổ biến như COVID-19 bùng phát, tôi có thể nhận được sự hỗ trợ gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__2" class="tableOfContent-dropdown__link">Tôi có thể tiến hành xét nghiệm COVID-19 và các bệnh cảm cúm khác ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__3" class="tableOfContent-dropdown__link">Tôi có thể làm xét nghiệm lao và HIV ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__4" class="tableOfContent-dropdown__link">Tôi có thể làm xét nghiệm viêm gan ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_5.html#chapter-5__5" class="tableOfContent-dropdown__link">Khi có các triệu chứng mắc bệnh truyền nhiễm, tôi phải làm gì?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 5: Sức khỏe tình dục và sức khỏe sinh sản</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__1" class="tableOfContent-dropdown__link">Tôi có thể đi khám và được tư vấn về sức khỏe tình dục và sức khỏe sinh sản ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__2" class="tableOfContent-dropdown__link">Kinh nguyệt của tôi không đều, tôi phải làm sao?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__3" class="tableOfContent-dropdown__link">Có những phương pháp nào để phòng tránh mang thai ngoài ý muốn?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__4" class="tableOfContent-dropdown__link">Khi mang thai ngoài ý muốn, tôi phải làm gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__5" class="tableOfContent-dropdown__link">Tôi đã quan hệ tình dục mà không sử dụng các biện pháp bảo vệ. Tôi cần phải làm gì nếu muốn kiểm tra xem bản thân có mắc các bệnh lây truyền qua đường tình dục hay không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__6" class="tableOfContent-dropdown__link">Có những biện pháp gì để phòng tránh các bệnh lây truyền qua đường tình dục?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__7" class="tableOfContent-dropdown__link">Làm thế nào để tôi xác định mình có mắc các bệnh lây truyền qua đường tình dục hay không? Những triệu chứng của bệnh lây truyền qua đường tình dục là gì?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__8" class="tableOfContent-dropdown__link">Có những cơ sở y tế nào khám, chữa bệnh liên quan tới HIV/AIDS?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__9" class="tableOfContent-dropdown__link">Làm thế nào để tôi kiểm tra xem bản thân có thai hay không?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__10" class="tableOfContent-dropdown__link">Khi có thai, tôi phải đến bệnh viện nào?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__11" class="tableOfContent-dropdown__link">Tôi sắp đến ngày dự sinh rồi. Tôi có thể tìm kiếm thông tin về những bệnh viện có phòng sinh ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__12" class="tableOfContent-dropdown__link">Chi phí sinh con ở bệnh viện công hoặc bệnh viện tư là bao nhiêu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__13" class="tableOfContent-dropdown__link">Đăng ký xin hỗ trợ chi phí mang thai – sinh sản</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_6.html#chapter-6__14" class="tableOfContent-dropdown__link">Tôi có thể xin nghỉ phép để nuôi con không?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 <!-- item -->
+                                <li class="tableOfContent-item js__tableOfContentItem">
+                                    <div class="tableOfContent-heading js__tableOfContentHeading">
+                                        <h3 class="tableOfContent-title">CHƯƠNG 6: Sức khỏe tâm thần/ tinh thần</h3>
+                                        <div class="tableOfContent-icon">
+                                            <img src="./images/svg/plus_2.svg" alt="" class="plus">
+                                            <img src="./images/svg/minus_2.svg" alt="" class="minus">
+                                        </div>
+                                    </div>
+                                    <ul class="tableOfContent-dropdown js__tableOfContentDropdown">
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__1" class="tableOfContent-dropdown__link">Tôi có thể sử dụng các dịch vụ hỗ trợ về sức khỏe tinh thần ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__2" class="tableOfContent-dropdown__link">Tôi có thể được tư vấn về sức khỏe tinh thần ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__3" class="tableOfContent-dropdown__link">Dạo gần đây, tôi rất nhớ nhà và gia đình. Tôi cảm thấy rất cô đơn. Tôi có thể tìm kiếm sự giúp đỡ ở đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__4" class="tableOfContent-dropdown__link">Tôi muốn được tư vấn về chứng nghiện nhưng không biết tiếng Hàn. Tôi phải liên lạc tới đâu?</a>
+                                        </li>
+                                        <li class="tableOfContent-dropdown__item">
+                                            <a href="./chapter_7.html#chapter-7__5" class="tableOfContent-dropdown__link">Tôi có thể tìm kiếm thông tin về cai nghiện đồ uống có cồn, thuốc, cờ bạc ở đâu?</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <!-- end item -->
+                                 
+                            </ul>
+                         </div>
+                        <!-- end pc -->
+                         <!-- mb -->
+                        <div class="chapter-secondary__menuFix d-3xl-none d-lg-block">
+                            <a href="#" class="chapter-secondary__menuFixLink">
+                                <div class="chapter-secondary__menuFixIcon">
+                                    <img src="./images/svg/bar-w.svg" alt="">
+                                </div>
+                                <span class="chapter-secondary__menuFixText">Mục lục</span>
+                            </a>
+                        </div>
+                         <!-- end mb -->
+                    </div>
+                    <!-- end left -->
+                    <!-- right -->
+                    <div class="chapter-secondary__right flex-1 text-gray-192">
+                        <div class="iom-block">
+                            <!-- top -->
+                            <div class="iom-top d-3xl-flex d-sm-block items-center gap-30">
+                                <!-- text -->
+                                <div class="text flex-1">
+                                    <p>Tổ chức IOM có chính sách không dung thứ với lạm dụng và bóc lột tình dục</p>
+                                </div>
+                                <!-- end text -->
+                                <!-- img -->
+                                <div class="img flex-1">
+                                    <img src="./images/iom.png" alt="">
+                                </div>
+                                <!-- end img -->
+                            </div>
+                            <!-- end top -->
+
+                            <!-- center -->
+                            <div class="iom-center mt-40">
+                                <h1 class="iom-heading"><span>6</span> nguyên tắc cốt lõi <br> để ngăn chặn hành vi lạm dụng và bóc lột tình dục (BLTD) của nhân viên IOM và các đối tác triển khai tại Việt Nam</h1>
+                                <div class="iom-table d-3xl-grid col-2 d-md-block">
+                                    <!-- col -->
+                                    <div class="iom-col">
+                                        <div class="iom-item">
+                                            <div class="iom-number">
+                                                <p>1</p>
+                                            </div>
+                                            <div class="iom-content">
+                                                <h2 class="iom-title">Không dung thứ</h2>
+                                                <p class="iom-des">BLTD là hành vi sai trái nghiêm trọng
+                                                    và là cơ sở để chấm dứt việc làm.</p>
+                                            </div>
+                                        </div>
+                                        <div class="iom-item">
+                                            <div class="iom-number">
+                                                <p>2</p>
+                                            </div>
+                                            <div class="iom-content">
+                                                <h2 class="iom-title">Không quan hệ tình dục với trẻ
+                                                    em</h2>
+                                                <p class="iom-des">Bất kỳ hoạt động tình dục nào với
+                                                    trẻ em (dưới 18 tuổi) đều bị nghiêm
+                                                    cấm, cho dù có được chấp thuận hay
+                                                    quy định về tuổi thành niên tại địa
+                                                    phương có cho phép hay không.</p>
+                                            </div>
+                                        </div>
+                                        <div class="iom-item">
+                                            <div class="iom-number">
+                                                <p>3</p>
+                                            </div>
+                                            <div class="iom-content">
+                                                <h2 class="iom-title">Không thuê hoặc hối lộ một
+                                                    người để quan hệ tình dục</h2>
+                                                <p class="iom-des">Việc trao đổi tiền, việc làm, hàng hóa
+                                                    hoặc dịch vụ để được quan hệ tình
+                                                    dục đều bị cấm, bao gồm cả việc
+                                                    thuê và chào mời dịch vụ mại dâm.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                    <!-- col -->
+                                    <div class="iom-col">
+                                        <div class="iom-item">
+                                            <div class="iom-number">
+                                                <p>4</p>
+                                            </div>
+                                            <div class="iom-content">
+                                                <h2 class="iom-title">Không quan hệ tình dục với
+                                                    người thụ hưởng</h2>
+                                                <p class="iom-des">Bất kỳ mối quan hệ tình dục nào với
+                                                    người thụ hưởng liên quan đến việc
+                                                    sử dụng cấp bậc hoặc vị trí không
+                                                    phù hợp đều bị cấm.</p>
+                                            </div>
+                                        </div>
+                                        <div class="iom-item">
+                                            <div class="iom-number">
+                                                <p>5</p>
+                                            </div>
+                                            <div class="iom-content">
+                                                <h2 class="iom-title">Luôn báo cáo nếu có nghi ngờ
+                                                    về BLTD/h2>
+                                                <p class="iom-des">Nhân viên hỗ trợ phát triển phải báo
+                                                    cáo bất kỳ mối quan ngại nào về
+                                                    BLTD của nhân viên IOM hoặc nhân
+                                                    viên của đối tác triển khai cho Đầu
+                                                    mối phòng chống BLTD của IOM,
+                                                    hoặc báo cáo và được bảo vệ khỏi
+                                                    hành vi trả đũa.</p>
+                                            </div>
+                                        </div>
+                                        <div class="iom-item">
+                                            <div class="iom-number">
+                                                <p>6</p>
+                                            </div>
+                                            <div class="iom-content">
+                                                <h2 class="iom-title">Xây dựng một môi trường không
+                                                    có BLTD</h2>
+                                                <p class="iom-des">Tất cả những người làm công tác
+                                                    phát triển phải tạo và duy trì một
+                                                    môi trường không có BLTD và thúc
+                                                    đẩy Quy tắc Ứng xử của họ.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end col -->
+                                </div>
+                            </div>
+                            <!-- end center -->
+
+                            <div class="block-img py-10 my-20">
+                                <img src="./images/iom_1.1.png" alt="" class="mx-auto w-45">
+                            </div>
+
+                            <div class="iom-bot d-3xl-flex items-center justify-center mt-40">
+                                <p>Mọi thông tin sai phạm, xin vui lòng liên hệ <br>
+                                    Bà Nguyễn Phương Thúy, IOM tại Việt Nam <br>
+                                     Địa chỉ email: <i>phunguyen@iom.int</i></p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- end right -->
+                </div>
+            </section>
+            <!-- end chapter secondary -->
+
+            
+            <!-- quinary -->
+            <section class="main-quinary relative z-20 over-hidden w-wrapper">
+                <div class="main-quinary__container w-1290">
+                    <a href="">
+                        <img src="./images/footer.png" alt="" class="w-full" style="height: auto;">
+                    </a>
+                </div>
+            </section>
+            <!-- end quinary -->
+            
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer w-wrapper z-20 relative px-20 py-10">
+            <p class="footer-text text-center fs-15 text-gray-192">© Hanbook. All Rights reserved. Designer by Digotech.vn</p>
+            <!-- back top -->
+            <!-- <div id="back-top">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div> -->
+            <!-- end back top -->
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
